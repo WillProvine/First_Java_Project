@@ -18,19 +18,30 @@ public class JavaClass {
 //        numStooges ++;
         System.out.println("Now with Shemp there are " +numStooges+" stooges");
 
-        int a = 0;
-        while (a<100)
-        {
-            a = a + 2;
-            if (a == 32)
-            {
-                System.out.println("its 32");
-//              break;
-//              continue;
-            }
-            System.out.println(a);
+//        int a = 0;
+//        while (a<100)
+//        {
+//            a = a + 2;
+//            if (a == 32)
+//            {
+//                System.out.println("its 32");
+////              break;
+////              continue;
+//            }
+//            System.out.println(a);
+//
+//        }
 
+        for(int x = 1; x < 30; x = x *2;)
+        {
+            System.out.print(x+"\t");
+            for(int i=0; i<6;i++)
+            {
+                System.out.print("*")
+            }
+            System.out.println("")
         }
+        System.out.println("\nDone.")
     }
 
 }
