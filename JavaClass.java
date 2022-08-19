@@ -19,10 +19,17 @@ public class JavaClass {
         System.out.println("Now with Shemp there are " +numStooges+" stooges");
 
         int a = 0;
-        while (a<10)
+        while (a<100)
         {
             a = a + 2;
+            if (a == 32)
+            {
+                System.out.println("its 32");
+//              break;
+//              continue;
+            }
             System.out.println(a);
+
         }
     }
 
