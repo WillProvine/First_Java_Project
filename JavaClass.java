@@ -18,6 +18,12 @@ public class JavaClass {
 //        numStooges ++;
         System.out.println("Now with Shemp there are " +numStooges+" stooges");
 
+        int a = 0;
+        while (a<10)
+        {
+            a = a + 2;
+            System.out.println(a);
+        }
     }
 
 }
